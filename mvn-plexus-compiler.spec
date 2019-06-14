@@ -4,7 +4,7 @@
 #
 Name     : mvn-plexus-compiler
 Version  : 2.8.2
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.jar
 Source0  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.jar
 Source1  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.pom
