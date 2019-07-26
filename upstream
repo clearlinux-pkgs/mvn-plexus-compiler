@@ -18,6 +18,7 @@ e65c11400242a7a082f9f0d12ffec13dc26ab4c0/plexus-compiler-manager-2.2.jar
 ff249d5bc58eafab1f462aa044b52ae6f69a9821/plexus-compiler-manager-2.8.2.jar
 b186f436c3eca547788b61dbe3a8734c4db53a6c/plexus-compiler-manager-2.8.2.pom
 6535718a76a347f73923c9e21cf1e5e8a3e95982/plexus-compiler-2.8.2.pom
+ed2d72ba275a51ad8867ec230d2badcf45d0b3af/plexus-compilers-2.2.pom
 7b38ff3d79574598364261a2244e85a72c156311/plexus-compilers-2.8.2.pom
 7b38ff3d79574598364261a2244e85a72c156311/plexus-compilers-2.8.2.pom
 b82648e51bc7951d6d8b2766de369770424da2d3/plexus-compiler-api-2.8.2.pom
@@ -41,3 +42,4 @@ e65c11400242a7a082f9f0d12ffec13dc26ab4c0/plexus-compiler-manager-2.2.jar
 35b498aea8b90b9f8c9cd0af3bbb1b02412a5fd5/plexus-compiler-manager-2.2.pom
 2f3de65bca1d5e6198d3839510a876b29af7b6fd/plexus-compiler-javac-2.2.jar
 e8d65287b1679ec005284b62b92753eb29ba303c/plexus-compiler-javac-2.2.pom
+ed2d72ba275a51ad8867ec230d2badcf45d0b3af/plexus-compilers-2.2.pom
