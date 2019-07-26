@@ -5,6 +5,8 @@ b422e2a37528f318e9cc7be56b97762218bc3c22/plexus-compiler-api-2.8.2.jar
 b82648e51bc7951d6d8b2766de369770424da2d3/plexus-compiler-api-2.8.2.pom
 729ced1bbd17bbef54b720e6c4ef087d8adc4f6d/plexus-compiler-2.2.pom
 6535718a76a347f73923c9e21cf1e5e8a3e95982/plexus-compiler-2.8.2.pom
+10443d038cd57feb4a027e7dfe09bed0925a1953/maven-plugin-descriptor-2.0.9.jar
+2752f80f21bd62796600c66859406a08a587c2d9/maven-plugin-descriptor-2.0.9.pom
 e9fe39d3b428df50637cccd434b414192e833754/plexus-compiler-api-2.2.jar
 e52bed1d095d713ed5e6cd1e732d084263802807/plexus-compiler-api-2.2.pom
 b422e2a37528f318e9cc7be56b97762218bc3c22/plexus-compiler-api-2.8.2.jar
@@ -43,3 +45,5 @@ e65c11400242a7a082f9f0d12ffec13dc26ab4c0/plexus-compiler-manager-2.2.jar
 2f3de65bca1d5e6198d3839510a876b29af7b6fd/plexus-compiler-javac-2.2.jar
 e8d65287b1679ec005284b62b92753eb29ba303c/plexus-compiler-javac-2.2.pom
 ed2d72ba275a51ad8867ec230d2badcf45d0b3af/plexus-compilers-2.2.pom
+10443d038cd57feb4a027e7dfe09bed0925a1953/maven-plugin-descriptor-2.0.9.jar
+2752f80f21bd62796600c66859406a08a587c2d9/maven-plugin-descriptor-2.0.9.pom
