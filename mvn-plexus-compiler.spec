@@ -4,7 +4,7 @@
 #
 Name     : mvn-plexus-compiler
 Version  : 2.8.2
-Release  : 12
+Release  : 13
 URL      : https://github.com/codehaus-plexus/plexus-compiler/archive/plexus-compiler-2.8.2.tar.gz
 Source0  : https://github.com/codehaus-plexus/plexus-compiler/archive/plexus-compiler-2.8.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
@@ -33,19 +33,21 @@ Source23  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-m
 Source24  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
 Source25  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
 Source26  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
-Source27  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
-Source28  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
-Source29  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
-Source30  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
-Source31  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
-Source32  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
-Source33  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
-Source34  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
-Source35  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
-Source36  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.1/plexus-compilers-2.8.1.pom
-Source37  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
-Source38  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
-Source39  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+Source27  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.jar
+Source28  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.pom
+Source29  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
+Source30  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
+Source31  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+Source32  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+Source33  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+Source34  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
+Source35  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+Source36  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+Source37  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+Source38  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.1/plexus-compilers-2.8.1.pom
+Source39  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+Source40  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+Source41  : https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -148,44 +150,50 @@ cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7
 cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.7
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.7/plexus-compiler-2.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.2
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.2/plexus-compiler-2.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.4
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler/2.8.4/plexus-compiler-2.8.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.2
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.7
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.7/plexus-compilers-2.7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.1
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.1/plexus-compilers-2.8.1.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.1/plexus-compilers-2.8.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.2/plexus-compilers-2.8.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.4
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compilers/2.8.4/plexus-compilers-2.8.4.pom
 
 
 %files
@@ -213,6 +221,8 @@ cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/org/codehaus/plexus/pl
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.jar
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.7/plexus-compiler-manager-2.7.pom
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.jar
+/usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.1/plexus-compiler-manager-2.8.1.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom
 /usr/share/java/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar
